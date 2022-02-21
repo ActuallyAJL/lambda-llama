@@ -11,5 +11,5 @@ const llamaNamer = function () {
     return namer;
 }
 
-nameMaker = llamaNamer()
-console.log(nameMaker())
+let nameMaker = llamaNamer();
+console.log(nameMaker());
